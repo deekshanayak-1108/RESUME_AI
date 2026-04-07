@@ -4,7 +4,7 @@ from scorer import calculate_score
 from gap import find_missing
 from extras import fake_check
 
-st.title("📄 AI Resume Screening System")
+st.title("AI Resume Screening System")
 
 # Input resume
 resume_text = st.text_area("Paste Resume Text")
