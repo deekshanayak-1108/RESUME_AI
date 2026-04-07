@@ -3,6 +3,6 @@ def fake_check(resume_text):
 
     for word in suspicious_words:
         if word in resume_text.lower():
-            return "⚠️ Suspicious Resume Detected"
+            return "Suspicious Resume Detected"
 
-    return "✅ Resume Looks Genuine"
+    return "Resume Looks Genuine"
