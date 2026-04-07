@@ -24,7 +24,7 @@ if st.button("Analyze Resume"):
         authenticity = fake_check(resume_text)
 
         # Output
-        st.subheader("🔍 Results")
+        st.subheader("Results")
 
         st.write("**Extracted Skills:**", found_skills)
         st.write("**Match Score:**", f"{score}%")
